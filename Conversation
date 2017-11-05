@@ -1,0 +1,33 @@
+How long does it take to cook Korean Pork
+
+Lambda:
+arn:aws:lambda:us-east-1:161219206179:function:Recipe-Manager-Function
+
+Tutorial:
+https://developer.amazon.com/alexa-skills-kit/tutorials/fact-skill-2
+
+{
+	"recipe-name": "Korean Pork Ragu",
+	"cook-time": "50 Minutes",
+	"ingredients": {
+		"soy glaze": "2 TBSP",
+		"Baby Bok Choy": "1 Head",
+		"Ground Pork": "1 Lb"
+	}
+}
+
+
+{
+	"recipe-name": "Spaghetti",
+	"cook-time": "30 Minutes",
+	"ingredients": {
+		"spaghetti": "1 Box",
+		"Ground Beef": "1 LB",
+		"Garlic": "1 Clove",
+        "Red Sauce": "1 Jar"
+	}
+}
+
+Intent: ReadRecipes
+What can I make
+-- List all recipe names --

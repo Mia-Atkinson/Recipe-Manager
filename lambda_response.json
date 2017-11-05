@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "ssml": "<speak> Here's your fact: On Mars, the Sun appears about half the size as it does on Earth. </speak>",
+      "type": "SSML"
+    },
+    "card": {
+      "content": "On Mars, the Sun appears about half the size as it does on Earth.",
+      "title": "Space Facts"
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "ssml": "<speak> Here's your fact: On Mars, the Sun appears about half the size as it does on Earth. </speak>"
+      },
+      "card": {
+        "content": "On Mars, the Sun appears about half the size as it does on Earth.",
+        "title": "Space Facts"
+      },
+      "shouldEndSession": true
+    }
+  },
+  "sessionAttributes": {}
+}
